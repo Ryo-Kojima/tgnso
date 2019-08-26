@@ -1,0 +1,398 @@
+﻿/* google font はここで読み込まれる */
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*----------------------------------------
+/* reset css
+/*---------------------------------------*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Japanese', san-serif;
+}
+
+/*----------------------------------------
+/* header
+/*---------------------------------------*/
+
+#header {
+  width: 100%;
+  height: 131px;
+
+  /*background-color: #93b48a;*/
+  /*border-top: 0px #4eb643 solid;*/
+  /*border-bottom: 3px #93b48a solid;*/
+
+  color: #222;
+  
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+  background-color: white;.
+  perspective: 100;
+
+}
+
+#headerInner {
+  width: 960px;
+  margin: 0 auto;
+  height: 131px;
+}
+
+#headerTop {
+  color: #b98d8f;
+  font-size: 10px;
+  
+  padding-top: 5px;
+}
+
+#headerLogoArea {
+  float: left;
+}
+
+#logo {
+  padding-top: 13px;
+  padding-left: 4px;
+}
+
+#headerRight {
+  float: right;
+  
+  padding-top: 30px;
+}
+
+#headerCustomer {
+  float: left;
+  margin-top:11px;
+  margin-right: 15px;
+}
+
+#headerEngBtn {
+  float: left;
+  background-color: #93b48a;
+  padding: 4px 8px;
+  color: #fbfbfb;
+  font-weight: 300;
+  font-size: 11px;
+  margin-right: 20px;
+  margin-top:11px;
+}
+
+#headerEngBtn a {
+  text-decoration: none;
+  color: #535353;
+}
+#headerEngBtn a:link {
+  color: #535353;
+}
+#headerEngBtn a:visited {
+  color: #535353;
+}
+#headerEngBtn a:hover {
+  color: #535353;
+}
+#headerEngBtn a:active {
+  color: #535353;
+}
+
+#headerTelephone {
+  float: left;
+  font-size: 36px;
+  color: #97b98d;
+}
+
+#headerTelephoneNumber {
+ margin-right: 8px;
+ margin-top: -6px;
+ font-weight: 500;
+}
+
+#headerTelephoneNumber a {
+  text-decoration: none;
+  color: #97b98d;
+}
+#headerTelephoneNumber a:link {
+  color: #97b98d;
+}
+#headerTelephoneNumber a:visited {
+  color: #97b98d;
+}
+#headerTelephoneNumber a:hover {
+  color: #97b98d;
+}
+#headerTelephoneNumber a:active {
+  color: #97b98d;
+}
+
+#headerTelephoneUnderText {
+  font-size: 11px;
+  text-align: center;
+  color: #626262;
+  margin-top: -6px;
+}
+
+#headerBottom {
+  margin-top: 1px;
+}
+
+#headerBottom ul{
+  width: 684px;
+  margin: 0 auto;
+  /*display: table;*/
+  border: 0;
+  border-left: 1px solid #626262;
+}
+
+#headerBottom ul li {
+  float: left;
+  list-style:none;
+  font-size: 15px;
+  font-weight: 400;
+  /*display: table-cell;*/
+  border-right: 1px solid #626262;
+  border-left: 0px solid #626262;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.headerLink1{
+  width:118px;
+}
+.headerLink2{
+  width:102px;
+}
+.headerLink3{
+  width:115px;
+}
+.headerLink4{
+  width:97px;
+}
+.headerLink5{
+  width:123px;
+}
+.headerLink6{
+  width:124px;
+}
+
+#headerBottom a {
+  text-decoration: none;
+  color: #626262;
+}
+#headerBottom a:link {
+  color: #626262;
+}
+#headerBottom a:visited {
+  color: #626262;
+}
+#headerBottom a:hover {
+  color: #626262;
+}
+#headerBottom a:active {
+  color: #626262;
+}
+
+#headerUnderLineArea{
+  /*display: table;*/
+  width: 684px;
+  margin: 0 auto;
+  height: 3px;
+  margin-top: 5px;
+}
+
+#headerUnderLineArea .headerLinkUnderLine {
+  /*display: table-cell;*/
+  /*width: 20%;*/
+  height: 3px;
+  float: left;
+}
+
+#headerUnderLineArea .headerLinkUnderLine * {
+  background-color: #4c5e47;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 3px;
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  padding-right: 0;
+}
+
+/*----------------------------------------
+/* customerPage
+/*---------------------------------------*/
+
+#customerPage {
+  width: 100%;
+  min-height: 340px;
+  background-color: #959595;
+  color: #fdfafa;
+}
+
+#customerPage .sectionTitle{
+  color: #fdfafa;
+  text-align:left;
+  padding-left: 20px;
+  font-size: 24px;
+  padding-top: 0px;
+  margin-bottom: -6px;
+}
+
+.customerLink {
+  margin: 10px;  /* in float necessary */
+  padding-top: 6px;
+  height: 64px;
+  border: 2px #fdfafa solid;
+  background-color: #959595;
+  line-height: 1.8em;
+  font-size: 14px;
+}
+
+.customerLink:hover {
+  background-color: #a5a5a5;
+}
+
+#customerPage a {
+  text-decoration: none;
+  color: #fff;
+}
+#customerPage a:link {
+  color: #fff;
+}
+#customerPage a:visited {
+  color: #fff;
+}
+#customerPage a:hover {
+  color: #fff;
+}
+#customerPage a:active {
+  color: #fff;
+}
+
+.customerLink h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.customerLinkOneLine {
+  padding-top: 1.2em;
+}
+
+#postCustomerSpacer {
+  height: 32px;
+  background-color: #fff;
+}
+
+/*----------------------------------------
+/* footer
+/*---------------------------------------*/
+
+body footer {
+  background-color: #535353;
+  color: #fffdfd;
+  width: 100%;
+  min-height: 200px;
+  line-height: 1.8em;
+  font-size: 12px;
+  
+
+}
+
+#footerInner {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  min-height: 255px;
+}
+
+#footerLeft {
+  float: left;
+  border-right: 1px solid #fff;
+  padding-right: 40px;
+  margin-top: 20px;
+  min-height: 140px;
+}
+
+#footerLeft h2 {
+  font-size: 16px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+#footerRight {
+  float: left;
+  padding-left: 20px;
+  margin-top: 35px;
+}
+
+#footerRight ul li {
+  text-decoration: none !important;
+  list-style:none;
+  margin-left: 40px;
+  margin-bottom: 24px;
+}
+
+.footerFloated{
+  float: left;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fffdfd;
+}
+footer a:link {
+  color: #fffdfd;
+}
+footer a:visited {
+  color: #fffdfd;
+}
+footer a:hover {
+  color: #fffdfd;
+}
+footer a:active {
+  color: #fffdfd;
+}
+
+#copyright {
+  width: 100%;
+  text-align:center;
+  margin: 0 auto;
+    padding-bottom: 10px;  /* 10pxから変更*/
+  padding-top: 10px;
+  background-color: #ffffff;
+  color: #535353;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: #535353;
+}
+#copyright a:link {
+  color: #535353;
+}
+#copyright a:visited {
+  color: #535353;
+}
+#copyright a:hover {
+  color: #535353;
+}
+#copyright a:active {
+  color: #535353;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1; 
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+dl{
+	background-color: #eeeded;
+	width:843px;
+	height:458px;
+	overflow:hidden; /*floatしたので高さ確保*/
+	border:1px solid #959595;
+	border-top: none;
+	/*border-top:none; /*dt,dd設定とかぶるので*/
+	margin-left : auto;
+	margin-right : auto;
+	font-family: NotoSansCJKjp;
+	color: #959595;
+	font-weight: 300;
+}
+
+dt{
+	background-color: #eeeded;
+	border-top:1px solid #959595;
+	padding-left : 10px;
+	width : 168px;
+	/* 左寄せ */
+	float : left;
+	/* float解除 */
+	clear : both;
+	font-size: 14px;
+	line-height: 48px;
+
+}
+
+dd{
+	background-color: #FFF;
+	border-top:1px solid #959595;
+	border-left:1px solid #959595;
+	padding-top : 8px;
+	padding-left : 17px;
+	padding-bottom : 10px;
+	width : 675px;
+	/* dtの幅分の設定 */
+	margin-left : 168px;
+	font-size: 11px;
+
+}
+
+input[type=text],input[type=email],input[type=tel]{
+	width:171px;
+	height:30px;
+	padding-left: 10px;
+	margin-right:10px;
+	border:solid 1px #CCC;
+}
+
+input[name=name],input[name=tel],input[name=email],input[name=repeatemail]{
+	background-color: #fff9f6;
+	border:solid 1px #CCC;
+}
+
+#company,#address{
+	width:500px;	
+}
+
+#email,#repeatemail{
+	width: 250px;
+}
+
+.required{
+  color:red;
+}
+
+textarea {
+	background-color: #fff9f6;
+	border:solid 1px #CCC;
+	padding-left: 10px;
+	width: 635px;
+	height: 144px;
+}
+
+#wrapper{
+	width : 843px;
+	margin-left : auto;
+	margin-right : auto;
+}
+#explain{
+	color: #959595; 
+	font-size: 14px;
+	padding-bottom: 26px;
+	margin-left : 0px;
+}
+
+#confirm{
+	width:250px;
+	color: #959595;
+	font-size: 11px;
+	font-weight: 300;
+	padding-top: 27px;
+	margin-right: auto;
+	margin-left : auto;
+}
+
+#subBtn{
+	width: 187px;
+	height: 39px;
+	border-radius: 5px;
+	background-color: #97b98d;
+	color: #ffffff;
+	font-weight: 700;
+	margin-top : 17px;
+	margin-bottom: 238px;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid 1px #97b98d;
+        display:block;
+}
+
+
+

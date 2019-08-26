@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+dl{
+	background-color: #eeeded;
+	width:843px;
+	height:967px;
+	overflow:hidden; /*floatしたので高さ確保*/
+	border:1px solid #959595;
+	border-top: none;
+	/*border-top:none; /*dt,dd設定とかぶるので*/
+	margin-left : auto;
+	margin-right : auto;
+	font-family: NotoSansCJKjp;
+	color: #959595;
+	font-weight: 300;
+}
+
+dt{
+	background-color: #eeeded;
+	border-top:1px solid #959595;
+	padding-left : 10px;
+	width : 168px;
+	/* 左寄せ */
+	float : left;
+	/* float解除 */
+	clear : both;
+	font-size: 14px;
+	line-height: 48px;
+
+}
+
+dd{
+	background-color: #FFF;
+	border-top:1px solid #959595;
+	border-left:1px solid #959595;
+	padding-top : 8px;
+	padding-left : 17px;
+	padding-bottom : 10px;
+	width : 675px;
+	/* dtの幅分の設定 */
+	margin-left : 168px;
+	font-size: 12px;
+
+}
+
+.breadCrumbs {
+    background-color: #959595;
+    font-size: 13px;
+    height: 33px;
+    margin-top: 150px;
+}
+.breadCrumbs .inner {
+    line-height: 33px;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 960px;
+}
+
+input[type=text],input[type=email],input[type=tel]{
+	width:171px;
+	height:30px;
+	padding-left: 10px;
+	margin-right:10px;
+	border:solid 1px #CCC;
+}
+
+input[required=required]{
+	background-color: #fff9f6;
+	border:solid 1px #CCC;
+}
+
+input[type="checkbox"]{
+	margin-right: 5px;
+	transform: scale(1.5);
+}
+
+#onshamei,#shozokubusho,#juusho,#tatemonomei{
+	width:500px;	
+}
+
+#email,#emailconfirm{
+	width: 250px;
+}
+
+#chkboard{
+	height: 115px;
+}
+
+#chkb1{
+	float: left;
+	width: 260px;
+	font-size: 13px;
+}
+
+#chkb2{
+	float: left;
+	width: 370px;
+	font-size: 13px;
+}
+
+label{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	display: block;
+}
+
+dd label input{
+	vertical-align:middle;
+}
+
+.required{
+  color:red;
+}
+
+.ore{
+  background-color:#fff9f6;
+}
+
+textarea {
+	background-color: #fff9f6;
+	border:solid 1px #CCC;
+	padding-left: 10px;
+	width: 635px;
+	height: 144px;
+}
+
+#wrapper{
+	margin-top: 10px;
+	width : 843px;
+	margin-left : auto;
+	margin-right : auto;
+}
+#explain{
+	color: #959595; 
+	font-size: 14px;
+	padding-bottom: 26px;
+	margin-left : 0px;
+}
+
+#gosoudannaiyou{
+	height: 178px;
+}
+
+#confirm{
+	 width:370px;
+	 color: #959595;
+	 font-size: 11px;
+	 font-weight: 300;
+	 padding-top: 27px;
+	 margin-right: auto;
+	 margin-left : auto;
+         display:block;
+}
+
+#confirm label input{
+	vertical-align:middle;
+}
+
+#subBtn{
+	 width: 187px;
+	 height: 39px;
+	 border-radius: 5px;
+	 background-color: #97b98d;
+	 color: #ffffff;
+	 font-weight: 700;
+	 margin-top : 17px;
+	 margin-bottom: 238px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 border:solid 1px #97b98d;
+         display:block;
+}
+
+.breadCrumbs a{
+  text-decoration:none;
+}
+

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.breadCrumbs{
+  background-color: #959595;
+  height: 33px;
+  font-size:13px;  
+  margin-top: 150px;
+}
+.breadCrumbs .inner{
+    width: 960px;
+    margin: 0 auto;
+    line-height: 33px;
+    Vertical-align:middle;
+}
+
+#contentsTittle{
+  	background-color:#93b48a;
+	line-height:60px;
+	font-size:30px;
+	color:#FFF;
+	vertical-align:middle;
+	text-align:center;
+  	margin-top:13px;
+}
+
+#contents{
+	width:960px;
+	margin:0 auto;
+	margin-bottom:0px;
+	color:#666666;
+}
+#privacyText {
+	margin:20px 10px;
+	font-size:14px;
+}
+#contentsInner{
+	border: solid 2px #78a3a1;
+	padding:15px 0 30px 15px;
+}
+#contentsInner ul{
+	list-style-type:none;
+}
+#contentsInner .pTitle{
+	background-image:url(../image/listIcon.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:19px;	
+	line-height::23px;
+	font-size:17px;
+	margin-bottom:6px;
+}
+#contentsInner li{
+	font-size:14px;
+	line-height:23px;
+}
+#contentsInner ul{
+	margin-bottom:40px;
+	padding-left:19px;
+}
+#btnArea{
+	width:440px;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:70px;
+	overflow:hidden;
+	height:41px;
+
+}
+.pri_button{
+    width: 200px;
+    height: 41px;
+    text-align: center;
+    background: #97b98d;
+    color: #fff;
+    text-decoration: none;
+    line-height: 41px;
+    position: relative;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+	margin:0 10px;
+	float:left;
+}
+
+.pri_button:after{
+    content: '';
+    display: block;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+.clearfix:after {  
+  content: ".";   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+
+}  

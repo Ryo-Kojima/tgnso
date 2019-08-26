@@ -1,0 +1,300 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{
+  margin:0;
+  padding:0;
+  font-family: NotoSansCJKjp;
+
+}
+
+header{
+  z-index:10;
+}
+
+ul.nav_list a{
+  text-decoration:none;
+} 
+
+body{
+  width:100%;
+  font-size: 1.4rem;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.breadCrumbs{
+  font-size: 1.2rem !important; 
+  padding: 10px 20px !important; 
+}
+
+
+#contactForm{
+  padding-top:5px;
+  margin-bottom:30px;
+  width:92%;
+  border:thin solid #c2c2c2;
+  margin-right:4%;
+  margin-left:4%;
+}
+
+p{
+/*  margin-top:15px; */
+}
+
+#content{
+  width:94%;
+  margin-left:3%;
+  margin-right:3%;
+}
+
+.red{
+  color:red;
+}
+
+input[type="button"],input[type="submit"]{
+  -webkit-appearance : none !important;
+    border-radius:5px;
+    vertical-align:middle;
+    text-align:center;
+    border-style: none;
+}
+
+
+input[type="text"],input[type="tel"],input[type="email"],input[type="number"]{
+  border-radius:5px;
+  width:94%;
+    border : 1px solid #ccc;
+  -webkit-appearance : none !important;
+    -webkit-tap-highlight-color : rgba(0,0,0,0);
+
+}
+
+#sei,#mei,#hurisei,#hurimei{
+  width:42%;
+  padding-left:12px;
+}
+
+#onshamei,#yakushoku,#yubin,#todouhuken,#todouhukeni,#juusho,#tatemonomei,#tel,#email,#emailconfirm,#nenshou,#gyoushu,#gosoudannaiyou{
+  padding-left:12px;
+}
+/*
+label{
+  display: inline-block;
+  margin-top:10px;
+}
+
+input {
+  vertical-align:bottom;
+}
+*/
+
+input[type=text],input[type=email],input[type=tel]{
+	width:94%;
+	height:30px;
+	margin-right:10px;
+}
+
+input[type="checkbox"]{
+  margin-right:10px;
+}
+
+textarea{
+  width:96%;
+  line-height: 120%;
+  margin-left:auto;
+  margin-right:auto;
+  border-style:ridge;
+}
+
+
+
+button[type="submit"]{
+  -webkit-appearance : none !important;
+  width:100%;
+  font-size: 1.2em;
+  background-color: #B4CF9E;
+  color: #fff;
+  border-style: none;
+  border-radius:5px;
+  line-height:40px;
+  text-align:center;
+}
+
+#conf{
+  margin-top:20px;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  width:100%;
+}
+
+#conf input{
+  display:block !important;
+}
+
+#subBtn{
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.required{
+  background-color:#fff9f6;
+}
+
+#sousin,#cancel{
+  width:46%;
+  margin-left:2%;
+  margin-right:2%;
+  -webkit-appearance : none;
+  background-color: #B4CF9E;
+  color:#fff;
+  border-radius:5px;
+  height:30px;
+  float:left;
+  margin-bottom:10px;
+}
+
+.sub2Btn{
+  width:50%;
+}
+
+/*
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+*/
+
+/*↓チェックボックスデザイン↓*/
+
+input[type=checkbox] {
+  display: none;
+}
+
+
+
+
+.checkbox {
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  position: relative;
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  padding: 12px 12px 12px 42px;
+  border-radius: 8px;
+  background-color: #f6f7f8;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.checkbox:hover {
+  background-color: #e2edd7;
+}
+.checkbox:hover:after {
+  border-color: #53b300;
+}
+.checkbox:after {
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  display: block;
+  margin-top: -10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #bbb;
+  border-radius: 6px;
+  content: '';
+}
+
+
+.checkbox:before {
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  display: block;
+  margin-top: -7px;
+  width: 5px;
+  height: 9px;
+  border-right: 3px solid #53b300;
+  border-bottom: 3px solid #53b300;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input[type=checkbox]:checked + .checkbox:before {
+  opacity: 1;
+}
+
+/*↑チェックボックスデザイン↑*/
+/*↓done.html↓*/
+
+#one{
+  height:100px;
+  width:90%;
+
+  margin-bottom:20px;
+
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+}
+
+.thx{
+  font-size:1.6rem;
+  margin-top:10px;
+}
+
+#two{
+  width:90%;
+  text-align:center;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:50px;
+}
+
+#toTop{
+  -webkit-appearance : none !important;
+  background-color: #B4CF9E;
+  color:#fff;
+  border-radius:5px;
+  height:30px;
+  margin-top:50px;
+  display:inline-block;
+  vertical-align:middle;
+  text-align:center;
+  border-style: none;
+}
+
+#toTop a{
+text-decoration: none;
+}
+
+
+<!--humberger-->
+a li span{
+  text-decoration:none;
+}
+
+<!--/humberger-->>
+
+

@@ -1,0 +1,234 @@
+﻿@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+#header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 2;
+}
+body #headerInner {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logo {
+  position: relative;
+  top: 3px;
+  right: 12px;
+  width: 250px;
+  height: 77px;
+  vertical-align: middle;
+}
+.headerNavi {
+  vertical-align: middle;
+  position: relative;
+  bottom: 45px;
+  left: 78px;
+  font-size: 15px;
+
+}
+.headerNavi ul.headerNavi1 {
+  list-style-type: none;
+}
+.headerNavi ul.headernav1 li {
+  font-size: 15px;
+}
+.headerNavi ul.headerNavi1 li a {
+  float: left;
+  width: 90px;
+  position: relative;
+  left: 150px;
+  text-decoration: none;
+  color: #626262;
+}
+#nav1 {
+  position: relative;
+  color: #626262;
+}
+#nav1:after {
+  display: block;
+  position: absolute;
+  left: 145px;
+  top: 30px;
+  width: 0;
+  height: 3px;
+  background-color: #4c5e47;
+  content: "";
+  transition: width 1s;
+}
+#nav1:hover {
+  color: #98004a;
+}
+#nav1:hover:after {
+  width: 80px;
+}
+#nav2 {
+  position: relative;
+  color: #626262;
+}
+#nav2:after {
+  display: block;
+  position: absolute;
+  left: 235px;
+  top: 30px;
+  width: 0;
+  height: 3px;
+  background-color: #4c5e47;
+  content: "";
+  transition: width 1s;
+}
+#nav2:hover {
+  color: #98004a;
+}
+#nav2:hover:after {
+  width: 85px;
+}
+#nav3 {
+  position: relative;
+  color: #626262;
+}
+#nav3:after {
+  display: block;
+  position: absolute;
+  left: 325px;
+  top: 30px;
+  width: 0;
+  height: 3px;
+  background-color: #4c5e47;
+  content: "";
+  transition: width 1s;
+}
+#nav3:hover {
+  color: #98004a;
+}
+#nav3:hover:after {
+  width: 85px;
+}
+#nav4 {
+  position: relative;
+  color: #626262;
+}
+#nav4:after {
+  display: block;
+  position: absolute;
+  left: 415px;
+  top: 30px;
+  width: 0;
+  height: 3px;
+  background-color: #4c5e47;
+  content: "";
+  transition: width 1s;
+}
+#nav4:hover {
+  color: #98004a;
+}
+#nav4:hover:after {
+  width: 80px;
+}
+.headerRight {
+  float: right;
+  position: relative;
+  bottom: 40px;
+  right: 240px;
+  vertical-align: middle;
+}
+#japansesBtn {
+  padding-top: 15px;
+  position: relative;
+  left: 200px;
+  bottom: 8px;
+}
+.number {
+  position: relative;
+  bottom: 8px;
+  left: 211px;
+}
+.headerRight table {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  float: right;
+  position: relative;
+  bottom: 18px;
+  left: 230px;
+  color: #000000;
+  vertical-align: middle;
+  font-size: 15px;
+}
+#fromOverseasNumber {
+  color: #000000;
+}
+#fromJapanNumber {
+  margin-left: 18px;
+  color: #000000;
+}
+#footer {
+  background-color: #535353;
+  width: 100%;
+  height: 200px;
+  margin-top: -350px;
+}
+body #footerHead {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 513px;
+}
+.footerTop ul {
+  list-style-type: none;
+}
+.footerTop ul li {
+  float: left;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: 800px;
+}
+.footerTop ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footerTop ul li a:link {
+  color: #ffffff;
+}
+.footerTop ul li a:visited {
+  color: #ffffff;
+}
+.footerTop ul li a:active {
+  color: #ffffff;
+}
+.footerTop ul li a:hover {
+  transition-property: border-bottom;
+  border-bottom: 1px solid #ffffff;
+  border-bottom-width: 1px;
+}
+.footerBottom {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  color: #ffffff;
+}
+.footerBottom small {
+  color: #ffffff;
+  position: relative;
+  left: 520px;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    /*zoom: 1;*/
+}

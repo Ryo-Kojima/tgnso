@@ -1,0 +1,14 @@
+suPHP_ConfigPath /home/nukui-tax/tgn-soleil.com/xserver_php/
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !/sp/
+RewriteCond %{HTTP_USER_AGENT} (iPhone|iPod|Android.*Mobile|Windows.*Phone) [NC]
+RewriteRule ^(.*)$ sp/$1 [R]
+RewriteBase /
+RewriteCond %{REQUEST_URI} /sp/
+RewriteCond %{HTTP_USER_AGENT} !(iPhone|iPod|Android.*Mobile|Windows.*Phone) [NC]
+RewriteRule ^sp/(.*)$ $1 [R]
+RewriteBase /
+AddHandler fcgid-script .php .phps
+FCGIWrapper "/home/nukui-tax/tgn-soleil.com/xserver_php/php-cgi" .php
+FCGIWrapper "/home/nukui-tax/tgn-soleil.com/xserver_php/php-cgi" .phps
+ErrorDocument 404 /404.html

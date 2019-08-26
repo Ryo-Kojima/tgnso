@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>税理士法人TGNそれいゆ | 東京駅すぐお問い合わせ会計事務所</title>
+<meta name="description" content="税理士法人TGNそれいゆは税務、会計、管理会計導入に関するお問い合わせ、ご相談をお気軽にご連絡下さい。英語での対応も可能で、海外進出、中長期経営計画の策定など様々な業務をサポート致しています。">
+<meta name="keywords" content="TGNそれいゆ, 税理士, 法人, 会計, 事務所, 東京, 英語, 相談, 海外, 進出, 経営,外国人, 起業, 英文, 経理, 投資, 税務, 相続税, 確定申告, 決算, 子会社, 管理, 事業, 計画,温井,德子,徳子,ぬくい,のりこ">
+<!-- facebook
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+/facebook -->
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/slick.css">
+<link rel="stylesheet" href="style_sp.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/slick.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/alert_sp.js"></script>
+<script src="./jump.js"></script>
+</head>
+<body>
+
+	<!-- header -->
+	<header class="cf">
+		<h1><a href="../"><img src="../img/logo.png" alt="TGNそれいゆ" onClick="jump0();"></a></h1>
+
+		<!-- contact link -->
+		<ul class="contact_box cf">
+			<li class="tel_icon"><a href="tel:0362252665" class="tel_link"><img src="../img/tell.png" alt="tell"></a></li>
+			<li class="mail_icon"><a href="" class="mail_link"><img src="../img/mail.png" alt="mail"></a></li>
+		</ul>
+		<!-- /contact link -->
+
+		<!-- hamburger -->
+		<div class="menu_box">
+			<div class="menu_hun">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<p class="menu_ttl">MENU</p>
+		</div>
+		<!-- /hamburger -->
+
+		<!-- menu -->
+		<div class="navcont">
+			<div class="nav_list_box ndl">
+				<nav>
+					<ul class="nav_list cf">
+						<a href="../english/"><li class="nav_li" onClick="jumpen();"><span>ENGLISH</span></li></a>
+						<a href="../?id=missi"><li class="nav_li mis_link"  onClick="jump1();"><span>ミッション</span></li></a>
+						<a href="../?id=anna"><li class="nav_li com_link"  onClick="jump2();"><span>事業内容</span></li></a>
+						<a href="../?id=ok"><li class="nav_li vo_link"><span>お客様の声</span></li></a>
+						<a href="../?id=ka"><li class="nav_li inc_link"><span>会社概要</span></li></a>
+						<a href="../?id=co"><li class="nav_li co_link"><span>お問い合わせ</span></li></a>
+						<li class="nav_li close_button"><span>閉じる</span></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- /menu -->
+	</header>
+	<!-- /header -->
+
+    <div style="padding-top:50px">
+ 		<p class="breadCrumbs"><a href="../">TOP</a>>お問い合わせ</p>
+	</div>
+
+  <!-- contact -->
+
+<section id="contactForm">
+  <div id="content">
+
+    <p>必要事項をご入力のうえ確認ボタンを押してください。</p>
+    <noscript>
+      <p class="red">JavaScriptがオンになっていないと利用できません</p>
+    </noscript>
+
+    <form method="POST" onSubmit="return check()" action="../form.php" >
+
+    <p>お名前<span class="red">  *必須</span></p>
+      <input type="text" name="sei" id="sei"  class="required" placeholder=" 姓" required="required" />
+      <input type="text" name="mei" id="mei"  class="required" placeholder=" 名" required="required" />
+
+    <p>フリガナ</p>
+    <input type="text" name="hurisei" id="hurisei"  placeholder=" セイ"  />
+    <input type="text" name="hurimei" id="hurimei"  placeholder=" メイ"  />
+
+    <p>御社名</p>
+    <input type="text" name="onshamei" id="onshamei"/>
+
+    <p>所属部署</p>
+    <input type="text" name="shozokubusho" id="shozokubusho"/>
+
+    <p>役職</p>
+    <input type="text" name="yakushoku" id="yakushoku"/>
+
+    <p>郵便番号(半角英数字)</p>
+    <input type="tel" name="yubin" id="yubin" pattern="\d{3}[-]\d{4}$|^\d{3}[-]\d{2}$|^\d{5}$|^\d{7}" title="郵便番号は、5または7桁で入力してください。" />
+
+    <p>都道府県(全角)</p>
+    <input type="text" name="todouhuken" id="todouhuken"/>
+
+    <p>住所</p>
+    <input type="text" name="juusho" id="juusho" />
+
+    <p>建物名</p>
+    <input type="text" name="tatemonomei" id="tatemonomei" />
+
+    <p>電話番号(半角英数字 ハイフンなし)<span class="red" >  *必須</span></p>
+    <input type="tel" name="tel" id="tel" class="required" pattern="^(+|)\d{8,13}" title="電話番号は、市外局番からハイフン（-）なしで入力してください。" required="required" />
+
+    <p>E-mail(半角英数字)<span class="red" >  *必須</span></p>
+    <input type="email" name="email" id="email" class="required" required="required" />
+
+    <p>E-mail(確認用)<span class="red" class="required">  *必須</span></p>
+    <input type="email" name="emailconfirm" id="emailconfirm" class="required" required="required">
+
+    <p>年商(単位：百万円)</p>
+    <input type="text" name="nenshou"/>
+
+    <p>業種</p>
+    <input type="text" name="gyoushu"/>
+
+    <p>ご相談事項<span class="red" class="required">  *必須</span></p>
+
+      <input type="checkbox" name="checkbox[]" value="月次決算を早期化したい" id="checkbox1"><label for="checkbox1" class="checkbox">月次決算を早期化したい</label><br>
+      <input type="checkbox" name="checkbox[]" value="経営計画を策定したい" id="checkbox2"><label for="checkbox2" class="checkbox">経営計画を策定したい</label><br>
+      <input type="checkbox" name="checkbox[]" value="部門別・事業別管理をやりたい" id="checkbox3"><label for="checkbox3" class="checkbox">部門別・事業別管理をやりたい</label><br>
+      <input type="checkbox" name="checkbox[]" value="マイナンバーの管理と運用が知りたい" id="checkbox4"><label for="checkbox4" class="checkbox">マイナンバーの管理と運用が知りたい</label><br>
+      <input type="checkbox" name="checkbox[]" value="海外進出に関する相談がしたい" id="checkbox5"><label for="checkbox5" class="checkbox">海外進出に関する相談がしたい</label><br>
+      <input type="checkbox" name="checkbox[]" value="相続税に関する相談（生前贈与も含む）をしたい" id="checkbox6"><label for="checkbox6" class="checkbox">相続税に関する相談（生前贈与も含む）をしたい</label><br>
+      <input type="checkbox" name="checkbox[]" value="事業承継に関する相談をしたい" id="checkbox7"><label for="checkbox7" class="checkbox">事業承継に関する相談をしたい</label><br>
+      <input type="checkbox" name="checkbox[]" value="その他" id="checkbox8"><label for="checkbox8" class="checkbox">その他  (※フリーコメント欄にご相談内容をご記載ください)</label>
+
+    <p>ご相談内容</p>
+      <textarea id="gosoudannaiyou" name="gosoudannaiyou" id="gosoudannaiyou" cols="40" rows="6" placeholder="フリーコメント欄"></textarea>
+
+    <div id="conf">
+      <input type="checkbox" name="pri" id="pri" value="on"><label for="pri" class="checkbox">弊社の<a href="/privacy/" target="_blank">プライバシーポリシー</a>に同意します。<span class="red" class="left">*必須</span></label></div>
+      <div id="subBtn"><button type="submit">確認画面へ進む</button></div>
+      <input type="hidden" name="mode" value="post" />
+    </div>
+
+  </form>
+  </div>
+</section>
+
+  <!-- /contact -->
+
+	<!-- footer -->
+	<footer class="ndl">
+		<div class="foot_block">
+			<p class="footer_name">税理士法人　TGNそれいゆ</p>
+			<address class="footer_add">
+				<p class="add">〒103-0028<br>東京都中央区八重洲1丁目6番16号 東進ビル4階［<a class=map_link href="https://www.google.co.jp/maps/place/%E3%80%92103-0028+%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AB%E9%87%8D%E6%B4%B2%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%96%E2%88%92%EF%BC%91%EF%BC%96+%E6%9D%B1%E9%80%B2%E3%83%93%E3%83%AB/@35.681415,139.7681005,17z/data=!4m7!1m4!3m3!1s0x60188bfc4d48e07f:0xcfcaf97fa5148a4!2z44CSMTAzLTAwMjgg5p2x5Lqs6YO95Lit5aSu5Yy65YWr6YeN5rSy77yR5LiB55uu77yW4oiS77yR77yWIOadsemAsuODk-ODqw!3b1!3m1!1s0x60188bfc4d48e07f:0xcfcaf97fa5148a4" target="_blank">map</a>］<br>TEL <a href="tel:0362252665" class="tel_link_foot">03-6225-2665</a> FAX 03-6225-2664</p>
+			</address>
+
+			<div class="footnav">
+				<nav>
+					<ul class="foot_nav_list cf">
+						<li class="foot_nav_li mis_link" onClick="jump1();">ミッション</li>
+						<li class="foot_nav_li com_link" onClick="jump2();">事業内容</li>
+						<li class="foot_nav_li vo_link" ><a href="../?id=ok">お客様の声</a></li>
+						<li class="foot_nav_li inc_link"><a href="../?id=ka">会社概要</a></li>
+						<li class="foot_nav_li co_link"><a href="../?id=co">お問い合わせ</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="copy_block">
+			<p class="copy"><a href="/privacy/">プライバシーポリシー</a>　|　&copy;  “TGN Soleil Accounting Firm” All rights reserved.</p>
+		</div>
+	</footer>
+	<!-- footer -->
+
+
+</body>
+<!--
+<script>
+
+  function check(){
+var sei = document.getElementById("sei");
+var mei = document.getElementById("mei");
+var email = document.getElementById("email");
+var email2 = document.getElementById("emailconfirm");
+var tel = document.getElementById("tel");
+var c1 = document.getElementById("checkbox1");
+var c2 = document.getElementById("checkbox2");
+var c3 = document.getElementById("checkbox3");
+var c4 = document.getElementById("checkbox4");
+var c5 = document.getElementById("checkbox5");
+var c6 = document.getElementById("checkbox6");
+var c7 = document.getElementById("checkbox7");
+var c8 = document.getElementById("checkbox8");
+var go = document.getElementById("gosoudannaiyou");
+var pri = document.getElementById("pri");
+
+if(sei.value=="" || mei.value==""){
+  window.alert("氏名をご入力ください。");
+  return false;
+  }else if
+  (tel.value==""){
+  window.alert("電話番号をご入力ください。");
+  return false;
+  }else if
+  (!(tel.value).match(/^\d{8,13}$/)){
+  window.alert("電話番号はハイフンなしで、半角数字8-13桁でご記入ください。");
+  return false;
+  }
+
+
+if(email.value=="" || email2.value==""){
+  window.alert("e-mailは確認用を含め、2箇所に記入をお願い致します。");
+  return false;
+  }else if
+  (!(email.value).match(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/)){
+  window.alert("e-mailは「英数字_-.」「@」で構成されているものでお願い致します。");
+  return false;
+  }
+
+
+if(email.value !== email2.value){
+ window.alert("e-mailが確認用と異なっています");
+ return false;
+ }else if
+ (c1.checked==false && c2.checked==false && c3.checked==false && c4.checked==false && c5.checked==false && c6.checked==false && c7.checked==false && c8.checked==false){
+  window.alert("ご相談事項は少なくとも１つお選びください。");
+  return false;
+  }else if
+    (c8.checked==true && go.value==""){
+      window.alert("その他を選ばれた場合、ご相談内容に記載をお願い致します。");
+      return false;
+    }else if
+  (pri.checked==false){
+  window.alert("弊社のプライバシーポリシーに同意をお願いいたします。");
+  return false;}
+}
+
+</script>-->
+<!--- アラート
+<script type="text/javascript">
+
+      $(function(){
+        $('#subBtn').click(function(){
+              var checkpt = $('[name=checkpt]:checked').map(function(){
+              return $(this).val();
+              }).get();
+
+              var pri = $('[name=pri]:checked').val();
+
+                  if(!($("input[name='email']").val() === $("input[name='emailconfirm']").val())){
+                      alert("メールアドレスとメールアドレス（確認用）が異なっています");
+                  }else　if(!checkpt[0]){
+                      alert("ご相談事項は必須です");
+                  }else if(pri != 1){
+                      alert("「弊社のプライバシーポリシーに同意します。」のチェックをお願いします");
+                  }
+
+        });
+      });
+
+</script>
+---->
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>TGNsoleil contactconfirm</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<!-- facebook
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+/facebook -->
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/slick.css">
+<link rel="stylesheet" href="style_spen.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/alert_sp_english.js"></script>
+<script src="./js/jumpen.js"></script>
+</head>
+
+<body>
+	<!-- header -->
+	<header class="cf">
+		<h1><a href="index.html"><img src="./img/logo.png" alt="TGNそれいゆ"></a></h1>
+
+		<!-- contact link -->
+		<ul class="contact_box cf">
+			<li class="tel_icon"><a href="tel:0362252665" class="tel_link"><img src="./img/tell.png" alt="tell"></a></li>
+			<li class="mail_icon"><a href="index.html#co" class="mail_link"><img src="./img/mail.png" alt="mail"></a></li>
+		</ul>
+		<!-- /contact link -->
+
+		<!-- hamburger -->
+		<div class="menu_box">
+			<div class="menu_hun">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<p class="menu_ttl">MENU</p>
+		</div>
+		<!-- /hamburger -->
+
+		<!-- menu -->
+		<div class="navcont">
+			<div class="nav_list_box ndl">
+				<nav>
+					<ul class="nav_list">
+						<li class="nav_li se_link" onClick="jumpen1()"><span>SERVICES</span></li>
+						<li class="nav_li pri_link" onClick="jumpen2()"><span>PRICE LIST</span></li>
+						<li class="nav_li abo_link" onClick="jumpen3()"><span>ABOUT US</span></li>
+						<li class="nav_li co_link" onClick="jumpen4()"><span>CONTACT</span></li>
+						<li class="nav_li"><span><a href="../index.html">JAPANESE</a></span></li>
+						<li class="nav_li close_button"><span>CLOSE</span></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- /menu -->
+	</header>
+	<!-- /header -->
+
+    <div style="padding-top:55px">
+      <p class="breadCrumbs">TOP>confirm</p>
+    </div>
+
+<!-- contact -->
+
+<section id="contactForm" class="cf">
+  <div id="content">
+
+    <p>name: !name!</p>  
+
+    <p>company: !company!</p>
+
+    <p>address: !address!</p>
+
+    <p>telephone: !tel!</p>
+
+    <p>E-mail: !email!</p>
+
+    <p>repeat E-mail: !repeatemail!</p>
+
+    <p>comments:<br>
+    <textarea id="comments" name="comments" cols="40" rows="6" readonly>!comments!</textarea></p>
+
+    <div id="conf">
+      <form action="form_spen.php" method="post">
+      <div class="sub2Btn"><input type="submit" id="sousin" value="submit" /></div>
+      <div class="sub2Btn" class="cf"><input type="button" id="cancel" onclick="history.back()" value="cancel"/></div>
+      <input type="hidden" name="mode" value="send" />
+      <input type="hidden" name="name" value="!name!" />
+      <input type="hidden" name="company" value="!company!" />
+      <input type="hidden" name="address" value="!address!" />
+      <input type="hidden" name="tel" value="!tel!" />
+      <input type="hidden" name="email" value="!email!" />
+      <input type="hidden" name="repeatemail" value="!repeatemail!" />
+      <input type="hidden" name="comments" value="!comments!" />
+      </form>
+    </div>
+
+  </form>
+  </div>
+</section>
+
+<!-- /contact -->
+
+	<!-- footer -->
+	<footer class="ndl">
+		<nav>
+			<ul class="foot_nav_list cf">
+				<li class="foot_nav_li se_link" onClick="jumpen1()">SERVICES</li>
+				<li class="foot_nav_li pri_link" onClick="jumpen2()">PRICE LIST</li>
+				<li class="foot_nav_li abo_link" onClick="jumpen3()">ABOUT US</li>
+				<li class="foot_nav_li co_link" onClick="jumpen4()">CONTACT</li>
+			</ul>
+		</nav>
+		<p class="copy">&copy;  “TGN Soleil Accounting Firm” All rights reserved.</p>
+	</footer>
+	<!-- footer -->
+
+
+</body>
+</html>

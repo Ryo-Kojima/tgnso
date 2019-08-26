@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 200;
+    src: url('font/NotoSansCJKjp-Light.eot');
+    src: local('Noto Sans CJK JP Light'),
+    url('font/NotoSansCJKjp-Light.eot?#iefix') format('embedded-opentype'),
+    url('font/NotoSansCJKjp-Light.woff') format('woff'),
+    url('font/NotoSansCJKjp-Light.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 300;
+    src: url('font/NotoSansCJKjp-DemiLight.eot');
+    src: local('Noto Sans CJK JP DemiLight'),
+    url('font/NotoSansCJKjp-DemiLight.eot?#iefix') format('embedded-opentype'),
+    url('font/NotoSansCJKjp-DemiLight.woff') format('woff'),
+    url('font/NotoSansCJKjp-DemiLight.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 400;
+    src: url('font/NotoSansCJKjp-Regular.eot');
+    src: local('Noto Sans CJK JP Regular'),
+    url('font/NotoSansCJKjp-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/NotoSansCJKjp-Regular.woff') format('woff'),
+    url('font/NotoSansCJKjp-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 700;
+    src: url('font/NotoSansCJKjp-Bold.eot');
+    src: local('Noto Sans CJK JP Bold'),
+    url('font/NotoSansCJKjp-Bold.eot?#iefix') format('embedded-opentype'),
+    url('font/NotoSansCJKjp-Bold.woff') format('woff'),
+    url('font/NotoSansCJKjp-Bold.ttf')  format('truetype');
+}
+
+.nl{
+    font-family: 'Noto Sans Japanese';
+    font-weight: 200; /*light*/
+}
+
+.ndl{
+    font-family: 'Noto Sans Japanese';
+    font-weight: 300; /*demi-light*/
+}
+
+.nr{
+    font-family: 'Noto Sans Japanese';
+    font-weight: 400;/*regular */
+}
+
+.nb{
+    font-family: 'Noto Sans Japanese';
+    font-weight: 700;/*bold*/
+}
+
+
+body {
+	background-image: url(./404/nakamura/sp404_bg.jpg);
+        background-size:100% 100%;
+        width:100%;
+}
+
+#content{
+  	background-image: url(./404/nakamura/neko.jpg);
+        background-size: 100% 100%;
+        margin-top:20px;
+        width:98%;
+        height:350px;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom:60px;
+}
+
+#wr{
+  height:2px;
+  width:100%;
+  background-color:#959595;
+  padding-top:52px;
+}
+
+#not{
+  font-size:30px;
+  padding-top:20px;
+}
+
+h2{
+  font-size:16px;
+  padding-top:20px;
+}
+
+.pp{
+  font-size:16px;
+  margin-top:20px;
+}
+
+#bt{
+    text-align:center;
+  vertical-align:middle;
+  margin-top:50px;
+  width:50%;
+}
+
+#bt a{
+  text-decoration:none;
+}
+
+#gototop{
+  width:100%;
+  height:40px;
+  background-color:#97b98d;
+  border-radius:10px;
+  color:#fff;
+  vertical-align:middle;
+  display:table-cell;
+}
+
+.foot_block{
+  margin-top:50px;
+}
+
+
+/*-------------------------------------------------------------------
+footer
+-------------------------------------------------------------------*/
+
+footer{
+    width: 100%;
+    background: #535353;
+    color: #fffdfd;
+}
+
+.foot_block{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 25px 15px 30px;
+}
+
+.footer_name{
+    font-size: 1.2rem;
+    margin-bottom: 9px;
+}
+.footer_add{
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.75;
+}
+
+.tel_link_foot{
+    text-decoration: none;
+}
+
+.footnav{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.foot_nav_list{
+    width: 100%;
+}
+
+.foot_nav_li{
+    float: left;
+    width: 33.33%;
+    font-size: 1.1rem;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 1px solid #fffdfd;
+    text-decoration: underline;
+}
+
+.foot_nav_li:nth-child(3),
+.foot_nav_li:nth-child(6){
+    border: none;
+}
+
+.foot_nav_li:nth-child(n+4){
+    margin-top: 30px;
+}
+
+.copy_block{
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    height: 20px;
+}
+
+.copy{
+    font-size: 0.9rem;
+    color: #535353;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    .copy{
+        font-size: 0.8rem;
+    }
+}

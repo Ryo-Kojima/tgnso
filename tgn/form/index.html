@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>税理士法人TGNそれいゆ | 東京駅すぐお問い合わせ会計事務所</title>
+<meta name="keywords" content="TGNそれいゆ, 税理士, 法人, 会計, 事務所, 東京, 英語, 相談, 海外, 進出, 経営,外国人, 起業, 英文, 経理, 投資, 税務, 相続税, 確定申告, 決算, 子会社, 管理, 事業, 計画,温井,德子,徳子,ぬくい,のりこ">
+<meta name="description" content="税理士法人TGNそれいゆは税務、会計、管理会計導入に関するお問い合わせ、ご相談をお気軽にご連絡下さい。英語での対応も可能で、海外進出、中長期経営計画の策定など様々な業務をサポート致しています。">
+<link rel="stylesheet" href="./style_pc.css">
+<link rel="stylesheet" href="./../common/css/common.css">
+<link rel="stylesheet" href="./../css/index.css">
+<script src="./../common/js/jquery.min.js"></script>
+<script src="./../common/js/SmoothScroll.js"></script>
+<script src="./../common/js/common.js"></script>
+<script src="/js/alert_pc.js"></script>
+</head>
+<body>
+  <!-- header -->
+   <header id="header">
+     <a name="top"></a>
+    <div id="headerInner">
+      <div id="headerCenter" class="clearfix">
+        <div id="headerLogoArea">
+          <h1><a href="../index.html"><img id="logo" id="logoimg" alt="TGNそれいゆ" src="./../common/images/logo.png"></a></h1>
+        </div>
+        <div id="headerRight" class="clearfix">
+          <a href="#customer"><div id="headerCustomer">
+            <img src="./../common/images/headerCustomer.png">
+          </div></a>
+          <a href="./../english/index.html"><div id="headerEngBtn">
+            ENGLISH
+          </div></a>
+          <div id="headerTelephone">
+            <div id="headerTelephoneNumber">03-6225-2665</div>
+            <!-- <img id="headerTelephoneNumber" src="common/images/telephone.png" alt="03-6225-2665"> -->
+            <div id="headerTelephoneUnderText">土日･夜間もお問い合わせ受付中!</div>
+          </div>
+        </div>
+        
+      </div>
+      <div id="headerBottom">
+        <ul class="clearfix">
+          <a id="headerLink1" href="../index.html#promise"><li class="headerLink1">ミッション</li></a>
+          <a id="headerLink2" href="../index.html#works"><li class="headerLink2">事業内容</li></a>
+          <a id="headerLink3" href="../index.html#voice"><li class="headerLink3">お客様の声</li></a>
+          <a id="headerLink4" href="../index.html#company"><li class="headerLink4">会社概要</li></a>
+          <a id="headerLink5" href="../soleil/index.php"><li class="headerLink5">それいゆ通信</li></a>
+          <a id="headerLink6" href="../index.html#question"><li class="headerLink6">お問い合わせ</li></a>
+        </ul>
+        <div id="headerUnderLineArea" class="clearfix">
+          <div class="headerLinkUnderLine headerLink1"><div id="headerLinkUnder1"></div></div>
+          <div class="headerLinkUnderLine headerLink2"><div id="headerLinkUnder2"></div></div>
+          <div class="headerLinkUnderLine headerLink3"><div id="headerLinkUnder3"></div></div>
+          <div class="headerLinkUnderLine headerLink4"><div id="headerLinkUnder4"></div></div>
+          <div class="headerLinkUnderLine headerLink5"><div id="headerLinkUnder5"></div></div>
+          <div class="headerLinkUnderLine headerLink6"><div id="headerLinkUnder6"></div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+
+<div class="breadCrumbs" id="question">
+    <div class="inner"><a href="../index.html">top</a> > お問い合わせ</div>
+</div>
+
+<div id="wrapper" style="margin-top:40px; margin-bottom:15px;">
+    <div id="explain">必要事項をご入力のうえ確認ボタンを押してください。（「<span class="required">*</span>」は必須項目です）<br>
+        <noscript>
+          <p class="required">JavaScriptがオンになっていないと利用できません</p>
+        </noscript>
+    </div>
+</div>
+
+<form method="POST" onSubmit="return check()" action="../otoiawaseform.php" name="formbox" id="formbox">
+
+<dl>
+  <dt>お名前<span class="required">*</span></dt>
+    <dd>
+    <input type="text" name="sei" id="sei" placeholder="姓" class="ore" />
+    <input type="text" name="mei" id="mei" placeholder="名" class="ore" />(全角)
+    </dd>
+
+
+  <dt>フリガナ</dt>
+    <dd>
+    <input type="text" name="hurisei" id="hurisei" placeholder="セイ"  />
+    <input type="text" name="hurimei" id="hurimei" placeholder="メイ"  />(全角カタカナ)
+    </dd>
+
+  <dt>御社名</dt>
+    <dd><input type="text" name="onshamei" id="onshamei"/>
+    </dd>
+
+
+  <dt>所属部署</dt>
+    <dd><input type="text" name="shozokubusho" id="shozokubusho"/></dd>
+
+
+  <dt>役職</dt>
+    <dd><input type="text" name="yakushoku"/></dd>
+
+  <dt>郵便番号</dt>
+    <dd><input type="text" name="yubin"/>郵便番号がわからない方はこちらからお調べください&nbsp;<a href="http://www.post.japanpost.jp/zipcode/" target="_blank">(&nbsp;日本郵便・郵便番号検索&nbsp;)</a></dd>
+
+  <dt>都道府県</dt>
+    <dd><input type="text" name="todouhuken"/>(全角)</dd>
+
+  <dt>住所</dt>
+    <dd><input type="text" name="juusho" id="juusho" /></dd>
+
+  <dt>建物名</dt>
+    <dd><input type="text" name="tatemonomei" id="tatemonomei" /></dd>
+
+  <dt>電話番号<span class="required">*</span></dt>
+    <dd><input type="tel" name="tel" id="tel" class="ore" />(半角英数字)&nbsp;&nbsp;&nbsp;(ハイフンなし)</dd>
+
+  <dt>E-mail<span class="required">*</span></dt>
+    <dd><input type="email" name="email" id="email" size="30" maxlength="40" class="ore" />(半角英数字)</dd>
+
+  <dt>E-mail(確認用)<span class="required">*</span></dt>
+    <dd><input type="email" name="emailconfirm" id="emailconfirm" size="30" maxlength="40" class="ore" />(半角英数字)</dd>
+
+  <dt>年商</dt>
+    <dd><input type="text" name="nenshou"/>(半角英数字)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(単位：百万円)</dd>
+
+  <dt>業種</dt>
+    <dd><input type="text" name="gyoushu"/></dd>
+<!--check[] →　check[]　へ置き換え-->
+  <dt>ご相談事項<span class="required">*</span></dt>
+    <dd id="chkboard">
+        <div id="chkb1">
+          <label><input type="checkbox" name="check[]" value="月次決算を早期化したい" id="checkbox1">&nbsp;月次決算を早期化したい</label>
+          <label><input type="checkbox" name="check[]" value="経営計画を策定したい" id="checkbox2">&nbsp;経営計画を策定したい</label>
+          <label><input type="checkbox" name="check[]" value="部門別・事業別管理をやりたい" id="checkbox3">&nbsp;部門別・事業別管理をやりたい</label>
+          <label><input type="checkbox" name="check[]" value="マイナンバーの管理と運用が知りたい" id="checkbox4">&nbsp;マイナンバーの管理と運用が知りたい</label>
+        </div>
+        <div id="chkb2">
+          <label><input type="checkbox" name="check[]" value="海外進出に関する相談がしたい" id="checkbox5">&nbsp;海外進出に関する相談がしたい</label>
+          <label><input type="checkbox" name="check[]" value="相続税に関する相談（生前贈与も含む）をしたい" id="checkbox6">&nbsp;相続税に関する相談（生前贈与も含む）をしたい</label>
+          <label><input type="checkbox" name="check[]" value="事業承継に関する相談をしたい" id="checkbox7">&nbsp;事業承継に関する相談をしたい</label>
+          <label><input type="checkbox" name="check[]" value="その他" id="checkbox8">&nbsp;その他(※フリーコメント欄にご相談内容をご記載ください)</label>
+        </div>
+    </dd>
+
+  <dt>ご相談内容</dt>
+    <dd id="gosoudannaiyou"><textarea name="gosoudannaiyou" cols="40" rows="4" id="go" placeholder="上記相談事項にて「その他」を選ばれた場合、こちらに詳細をご記入ください。"></textarea></dd> 
+
+</dl>
+
+    <input type="hidden" name="mode" value="mode">
+
+<div id="confirm">
+<div><label><input type="checkbox" name="pri" id="pri" value="on">&nbsp;弊社のプライバシーポリシーに同意します。<a href="/privacy/index.html" target="_blank">(プライバシーポリシー)</a></label></div>
+<div><button type="submit" id="subBtn" >確認画面へ進む</button></div>
+</div>
+
+</form>
+
+  <section id="customerPage" class="page">
+    <a name="customer"></a>
+    <a href="#top"><img src="../images/gotoTop.png" id="btnGoToTop"></a>
+    
+    <!-- float version -->
+    <div class="inner clearfix">
+    <div class="sectionTitle">
+      お客様専用ページ
+    </div>
+        <div class="threeColumn">
+          <a href="https://presidentasp.tkc.co.jp/PresidentASP/PresidentASPDeploy/PresidentASP.htm" target="_blank"><div class="customerLink">
+            <h2>&gt;社長用ページ</h2>
+            貴社の最新業績を確認できます。
+          </div></a>
+        </div>
+        <div class="threeColumn">
+          <a href="http://www.123.tkcnf.or.jp/ContentsDelivery/Redirector.aspx?key=%3C-F%3C%3CF7RKQ%27" target="_blank"><div class="customerLink">
+            <h2>&gt;お役立ちコーナー</h2>
+            毎月更新！
+          </div></a>
+        </div>
+        <div class="threeColumn">
+          <a href="http://www.tkcnf.or.jp/automatic/shienkikan.html" target="_blank"><div class="customerLink">
+            <h2>&gt;経営革新等支援機関</h2>
+            財務経営・資金調達を支援
+          </div></a>
+        </div>
+    </div>
+    <div class="inner cleafix">
+        <div class="threeColumn">
+          <a href="http://www.tkcnf.or.jp/automatic/kaizen_c.html" target="_blank"><div class="customerLink">
+            <h2>&gt;経営改善計画の策定支援</h2>
+            金融機関からの信頼を高めます
+          </div></a>
+        </div>
+        <div class="threeColumn">
+          <a href="https://www.prft.tkc.co.jp/SystemqaCC/Main/SystemList.aspx?cds=%3CMF7%3CKE%27" target="_blank"><div class="customerLink">
+            <h2>&gt;経営戦略者システムQ&amp;A</h2>
+          </div></a>
+        </div>
+        <div class="threeColumn">
+          <a href="http://www.tkcnf.or.jp/automatic/fx4cloud/index.html" target="_blank"><div class="customerLink">
+            <h2>&gt;FX4クラウドの紹介</h2>
+          </div></a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- id="customerPage" -->
+  <section id="postCustomerSpacer">
+  </section>
+
+<footer> <!-- フッターはfooterタグ -->
+  <div id="footerInner" class="clearfix">
+    <div id="footerLeft">
+      <h2>税理士法人　TGNそれいゆ</h2>
+      <p>〒103-0028</p>
+      <p>東京都中央区八重洲6番16号</p>
+      <p>東進ビル4階　<a href="../index.html#map">[MAP]</a></p>
+      <p>TEL&nbsp;03-6225-2665</p>
+      <p>FAX&nbsp;03-6225-2664</p>
+    </div>
+    <div id="footerRight">
+      <ul class="clearfix"> <!-- サイトマップはリストに追加すれば大丈夫です -->
+      　　<li class="footerFloated"><ul>
+          <li><a href="../index.html#mission">ミッション</a></li>
+          <li><a href="../index.html#works">事業内容</a></li>
+          <li><a href="../index.html#company">会社概要</a></li>
+        </ul></li>
+        <li class="footerFloated"><ul>
+          <li><a href="../index.html#voice">お客様の声</a></li>
+          <li><a href="../soleil/index.php">それいゆ通信</a></li>
+          <li><a href="../index.html#question">お問い合わせ</a></li>
+        </ul></li>
+        <li class="footerFloated"><ul>
+          <li><a href="#">お客様専用ページ</a></li>
+        </ul></li>
+      </ul>
+    </div>
+  </div>
+  <div id="copyright">
+    <a href="/privacy/index.html">プライバシーポリシー</a>　|　&copy; "TGN Soleil Accounting Firm" All rights reserved.  
+  </div>
+  </footer>
+  
+</body>
+
+<!--
+<script type="text/javascript">
+  function check(){
+var sei = document.getElementById("sei");
+var mei = document.getElementById("mei");
+var email = document.getElementById("email");
+var email2 = document.getElementById("emailconfirm");
+var tel = document.getElementById("tel");
+var c1 = document.getElementById("checkbox1");
+var c2 = document.getElementById("checkbox2");
+var c3 = document.getElementById("checkbox3");
+var c4 = document.getElementById("checkbox4");
+var c5 = document.getElementById("checkbox5");
+var c6 = document.getElementById("checkbox6");
+var c7 = document.getElementById("checkbox7");
+var c8 = document.getElementById("checkbox8");
+var go = document.getElementById("go");
+var pri = document.getElementById("pri");
+
+if(sei.value=="" || mei.value==""){
+  window.alert("氏名をご入力ください。");
+  return false;
+  }else if
+  (tel.value==""){
+  window.alert("電話番号をご入力ください。");
+  return false;
+  }else if
+  (!(tel.value).match(/^\d{8,13}$/)){
+  window.alert("電話番号はハイフンなしで、半角数字8-13桁でご記入ください。");
+  return false;
+  }
+
+if(email.value=="" || email2.value==""){
+  window.alert("e-mailは確認用を含め、2箇所に記入をお願い致します。");
+  return false;
+  }else if
+  (!(email.value).match(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/)){
+  window.alert("e-mailは「英数字_-.」「@」で構成されているものでお願い致します。");
+  return false;
+  }
+
+
+if(email.value !== email2.value){
+ window.alert("e-mailが確認用と異なっています");
+ return false;
+ }else if
+ (c1.checked==false && c2.checked==false && c3.checked==false && c4.checked==false && c5.checked==false && c6.checked==false && c7.checked==false && c8.checked==false){
+  window.alert("ご相談事項は少なくとも１つお選びください。");
+  return false;
+  }else if
+    (c8.checked==true && go.value==""){
+      window.alert("その他を選ばれた場合、ご相談内容に記載をお願い致します。");
+      return false;
+    }else if
+  (pri.checked==false){
+  window.alert("弊社のプライバシーポリシーに同意をお願いいたします。");
+  return false;}
+}
+</script>-->
+</html>

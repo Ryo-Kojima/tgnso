@@ -1,0 +1,154 @@
+﻿@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+
+.breadCrumbs{
+  background-color: #959595;
+  height: 33px;
+  font-size:13px;  
+  margin-top: 150px;
+}
+.breadCrumbs .inner{
+    width: 960px;
+    margin: 0 auto;
+    line-height: 33px;
+    Vertical-align:middle;
+}
+#title {
+  height:143px;
+  background-image:url(../image/title.jpg);
+  text-align:center;
+  vertical-align:middle;
+  font-size:35px;
+  line-height:143px;
+  margin-top:13px;
+  color:#666666;
+}
+#bo{
+	border-bottom:solid;
+	border-width:1px;
+}
+#subNav ul{
+	width:744px;
+	height:124px;
+	margin: 0 auto;
+	list-style-type:none;
+}
+#subNav ul li{
+	float:left;
+	margin-left:35px;
+	margin-right:35px;
+	margin-top:30px;
+	width:178px;
+	height:64px;
+}
+#contentsTittle01{
+  	background-color:#93b48a;
+}
+#contentsTittle02{
+  	background-color:#898989;
+}
+#contentsTittle03{
+  	background-color:#78a3a1;
+}
+#contents h3{
+	line-height:67px;
+	font-size:30px;
+	color:#FFF;
+	vertical-align:middle;
+	text-align:center;
+	margin-bottom:65px;
+}
+.voice{
+	 width:470px;
+	 float:left;
+}
+.cus_name{
+	line-height:35px;
+	font-size:20px;
+	margin-bottom:40px;
+}
+#contents .wrapper{
+	width:960px;
+	margin:0 auto;
+	margin-bottom:55px;
+	color:#666666;
+}
+.line{
+	width:1px;
+	height:513px;
+	background-image:url(../image/dot.jpg);
+	float:left;
+	margin:0 25px 0 15px;
+}
+.wrapper .voice img{
+	float:right;
+	width:444px;
+}
+hr{
+	width:960px;
+	margin:0 auto;
+	margin-bottom:80px;
+}
+.voice a{
+	text-decoration:none;
+	color:#919191;	
+}
+#btnArea{
+	width:440px;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:70px;
+	overflow:hidden;
+	height:41px;
+
+}
+.pri_button{
+    width: 200px;
+    height: 41px;
+    text-align: center;
+    background: #97b98d;
+    color: #fff;
+    text-decoration: none;
+    line-height: 41px;
+    position: relative;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+	margin:0 10px;
+	float:left;
+}
+
+.pri_button:after{
+    content: '';
+    display: block;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.clearfix:after {  
+  content: ".";   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}  
+
+a[id]:not([href]) {
+margin-top: -131px;
+padding-top: 131px;
+display: block;
+visibility: hidden;
+}

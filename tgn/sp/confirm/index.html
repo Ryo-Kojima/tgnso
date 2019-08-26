@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>税理士法人TGNそれいゆ お問い合わせ確認</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<!-- facebook
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+/facebook -->
+
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/slick.css">
+<link rel="stylesheet" href="./form/style_sp2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/alert_sp.js"></script>
+<script src="./form/jump.js"></script>
+</head>
+<body>
+
+	<!-- header -->
+	<header class="cf">
+		<h1><a href="../"><img src="./img/logo.png" alt="TGNそれいゆ" onClick="jump0();"></a></h1>
+
+		<!-- contact link -->
+		<ul class="contact_box cf">
+			<li class="tel_icon"><a href="tel:0362252665" class="tel_link"><img src="./img/tell.png" alt="tell"></a></li>
+			<li class="mail_icon"><a href="" class="mail_link"><img src="./img/mail.png" alt="mail"></a></li>
+		</ul>
+		<!-- /contact link -->
+
+		<!-- hamburger -->
+		<div class="menu_box">
+			<div class="menu_hun">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<p class="menu_ttl">MENU</p>
+		</div>
+		<!-- /hamburger -->
+
+		<!-- menu -->
+		<div class="navcont">
+			<div class="nav_list_box ndl">
+				<nav>
+					<ul class="nav_list cf">
+						<a href="../sp/english/"><li class="nav_li" onClick="jumpen();"><span>ENGLISH</span></li></a>
+						<a href="../sp/#missi"><li class="nav_li mis_link"  onClick="jump1();"><span>ミッション</span></li></a>
+						<a href="../sp/#anna"><li class="nav_li com_link"  onClick="jump2();"><span>事業内容</span></li></a>
+						<a href="../sp/#ok"><li class="nav_li vo_link"><span>お客様の声</span></li></a>
+						<a href="../sp/#ka"><li class="nav_li inc_link"><span>会社概要</span></li></a>
+						<a href="../sp/#co"><li class="nav_li co_link"><span>お問い合わせ</span></li></a>
+						<li class="nav_li close_button"><span>閉じる</span></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- /menu -->
+	</header>
+	<!-- /header -->
+
+    <div style="padding-top:50px">
+      <p class="breadCrumbs"><a href="./">TOP</a>>確認</p>
+    </div>
+
+<section id="contactForm">
+  <div id="content">
+
+    <p>お名前: !sei! !mei!</p>
+
+    <p>フリガナ: !hurisei! !hurimei!</p>
+
+    <p>御社名: !onshamei!</p>
+
+    <p>所属部署: !shozokubusho!</p>
+
+    <p>役職: !yakushoku!</p>
+
+    <p>郵便番号: !yubin!</p>
+
+    <p>都道府県(全角): !todouhuken!</p>
+
+    <p>住所: !juusho!</p>
+
+    <p>建物名: !tatemonomei!</p>
+
+    <p>電話番号: !tel!</p>
+
+    <p>E-mail: !email!</p>
+
+    <p>E-mail(確認用): !emailconfirm!</p>
+
+    <p>年商(単位：百万円): !nenshou!</p>
+
+    <p>業種: !gyoushu!</p>
+
+    <p>ご相談事項:<br>!checkbox!</p>
+
+    <p>ご相談内容: !gosoudannaiyou!</p>
+
+    <div id="conf">
+      <form action="form.php" method="post">
+      <div id="sub2Btn"><input type="submit" id="sousin" value="送信" /></div>
+      <div id="sub2Btn" class="cf"><input type="button" id="cancel" onclick="history.back()" value="キャンセル" /></div>
+      <input type="hidden" name="mode" value="send" />
+      <input type="hidden" name="sei" value="!sei!" />
+      <input type="hidden" name="mei" value="!mei!" />
+      <input type="hidden" name="hurisei" value="!hurisei!" />
+      <input type="hidden" name="hurimei" value="!hurimei!" />
+      <input type="hidden" name="onshamei" value="!onshamei!" />
+      <input type="hidden" name="shozokubusho" value="!shozokubusho!" />
+      <input type="hidden" name="yakushoku" value="!yakushoku!" />
+      <input type="hidden" name="yubin" value="!yubin!" />
+      <input type="hidden" name="todouhuken" value="!todouhuken!" />
+      <input type="hidden" name="juusho" value="!juusho!" />
+      <input type="hidden" name="tatemonomei" value="!tatemonomei!" />
+      <input type="hidden" name="tel" value="!tel!" />
+      <input type="hidden" name="email" value="!email!" />
+      <input type="hidden" name="emailconfirm" value="!emailconfirm!" />
+      <input type="hidden" name="nenshou" value="!nenshou!" />
+      <input type="hidden" name="gyoushu" value="!gyoushu!" />
+      <input type="hidden" name="checkbox" value="!checkbox!" />
+      <input type="hidden" name="gosoudannaiyou" value="!gosoudannaiyou!" />
+      <input type="hidden" name="pri" value="on" />
+      </form>
+    </div>
+
+
+  </div>
+</section>
+
+	<!-- footer -->
+	<footer class="ndl">
+		<div class="foot_block">
+			<p class="footer_name">税理士法人　TGNそれいゆ</p>
+			<address class="footer_add">
+				<p class="add">〒103-0028<br>東京都中央区八重洲1丁目6番16号 東進ビル4階［<a class=map_link href="https://goo.gl/maps/PcEUokvovbr" target="_blank">map</a>］<br>TEL <a href="tel:0362252665" class="tel_link_foot">03-6225-2665</a> FAX 03-6225-2664</p>
+			</address>
+
+			<div class="footnav">
+				<nav>
+					<ul class="foot_nav_list cf">
+						<li class="foot_nav_li mis_link" onClick="jump1();">ミッション</li>
+						<li class="foot_nav_li com_link" onClick="jump2();">事業内容</li>
+						<li class="foot_nav_li vo_link" ><a href="./#ok">お客様の声</a></li>
+						<li class="foot_nav_li inc_link"><a href="./#ka">会社概要</a></li>
+						<li class="foot_nav_li co_link"><a href="./#co">お問い合わせ</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="copy_block">
+
+<p class="copy"><a href="/privacy/">プライバシーポリシー</a>　|　&copy;  “TGN Soleil Accounting Firm” All rights reserved.</p>
+		</div>
+	</footer>
+	<!-- footer -->
+
+
+</body>
+</html>

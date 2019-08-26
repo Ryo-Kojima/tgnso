@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>TGN Soleil confirm</title>
+	<link href="contactcss/style_pc_confen.css" rel="stylesheet" type="text/css">
+	<link href="common.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="common/css/style.css">
+        <link rel="stylesheet" href="sub/css/voice.css">
+        <link rel="stylesheet" href="common/css/common.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/thanks.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="js/slick.js"></script>
+</head>
+<body>
+
+    <!-- header -->
+    <header id="header">
+      <div id="headerInner">
+        <div class="headerLeft" id="headerLeft">
+          <h1 id="top"><a href="index.html"><img src="common/images/logo.png" alt="TGN Soleil Accounting Firm" id="logo"></a></h1>
+        </div>
+        <div class="headerRight" id="headerRight">
+          <a href="../index.html" id="japansesBtn"><img src="common/images/japanese.png" alt="japanese" id="japanese" class="japanese"></a>
+          <img src="common/images/number.png" alt="number" id="number" class="number">
+          <table>
+            <tr>
+              <td>
+                From overseas <span id="fromOverseasNumber">: +81-3-6225-2665</span><br>
+                From Japan <span id="fromJapanNumber"> : 03-6225-2665</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="headerNavi">
+          <ul class="headerNavi1">
+            <li id="nav1"><a href="index.html#services">SERVICES</a></li>
+            <li id="nav2"><a href="index.html#priceList">PRICE LIST</a></li>
+            <li id="nav3"><a href="index.html#aboutUs">ABOUT US</a></li>
+            <li id="nav4"><a href="index.html#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div><!-- id="headerInner" -->
+    </header><!-- id="header" -->
+    <!-- /header -->
+
+  <!--パン屑リスト-->  
+<div class="breadCrumbs">
+    <div class="inner">top > confirm</div>
+</div>
+
+<div id="explain"></div>
+
+<form method="POST" action="form_pcen.php" name="formbox" id="formbox">
+
+<dl>
+  <dt>name<span class="required">&nbsp;&nbsp;*required</span></dt>
+    <dd>
+    <input type="text" name="name" id="name" readonly="" value="!name!"  />
+    </dd>
+
+  <dt>company</dt>
+    <dd><input type="text" name="company" id="company" readonly="" value="!company!"/>
+    </dd>
+
+  <dt>address</dt>
+    <dd><input type="text" name="address" id="address" readonly="" value="!address!" /></dd>
+
+  <dt>telephone<span class="required">&nbsp;&nbsp;*required</span></dt>
+    <dd><input type="tel" name="tel" id="tel" readonly="" value="!tel!"/></dd>
+
+  <dt>E-mail<span class="required">&nbsp;&nbsp;*required</span></dt>
+    <dd><input type="email" name="email" id="email" size="30" maxlength="40" readonly="" value="!email!"></dd>
+
+  <dt>repeat E-mail<span class="required">&nbsp;&nbsp;*required</span></dt>
+    <dd><input type="email" name="repeatemail" id="repeatemail" size="30" maxlength="40" readonly="" value="!repeatemail!"></dd>
+
+  <dt>comments<span class="required">&nbsp;&nbsp;*required</span></dt>
+    <dd id="commentsWrapper"><textarea name="comments" cols="40" rows="4" maxlength="20" readonly="" readonly="" value="!comments!">!comments!</textarea></dd>	
+
+</dl>
+
+    <input type="hidden" name="mode" value="send">
+    <input type="hidden" name="connectstr" value="!connectstr!">
+
+<div id="confirmWrapper">
+    <div><button id="backbtn" type="button" onclick="history.back()">Back</button></div>
+    <div><button id="confBtn" type="submit">Submit</button></div>
+</div>
+
+</form>
+
+
+    <!-- footer -->
+    <footer id="footer">
+<!--      <a href="#top"><img src="images/gotoTop.png" alt="gotoTop" id="btnGoToTop"></a>-->
+      <div id="footerHead" class="footerHead">
+        <div id="footerTop" class="footerTop">
+          <ul class="clearfix">
+            <li><a href="index.html#services">SERVICES</a></li>
+            <li><a href="index.html#priceList">PRICE LIST</a></li>
+            <li><a href="index.html#aboutUs">ABOUT US</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div id="footerBottom" class="footerBottom clearfix">
+          <p><small>&copy;"TGN Soleil Accounting Firm" All rights reserved.</small></p>
+        </div>
+      </div><!-- id="footerHead" -->
+    </footer><!-- id="footer" -->
+    <!-- /footer -->
+	
+</body>
+</html>
